@@ -10,7 +10,7 @@ html {
     scroll-behavior: smooth;
 }
 body{
-  background-color: #EDF4F2;
+  background-color: #071724;
 }
 
 
@@ -24,6 +24,22 @@ body{
 }
 .navbar-brand{
   font-size: 27px;
+  color: #1b9f98;
+  font-weight: 900;
+  transition: .3s ease;
+}
+.navbar-brand:hover{
+  color: #71604b;
+
+}
+.nav-link{
+  color: #20a192;
+  transition: .5s ease;
+}
+.nav-link:hover{
+  color: #71604b;
+  transition: .5s ease;
+  letter-spacing: 2px;
 }
 nav ul {
   list-style-type: none;
@@ -40,7 +56,6 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -56,7 +71,7 @@ nav ul li::before {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #0e2928; /* Change to your preferred line color */
+  background-color: #71604b; /* Change to your preferred line color */
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.6s ease;
@@ -73,7 +88,7 @@ nav ul li::after {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #0e2928; /* Change to your preferred line color */
+  background-color: #71604b; /* Change to your preferred line color */
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.6s ease;
@@ -83,14 +98,12 @@ nav ul li:hover::after {
   transform: scaleX(1);
 }
 
-nav ul li a:hover {
-  color: #08BDBA; /* Change to your preferred hover color */
-}
+
 
 
 .hireme {
   font-size: 20px;
-  color: #000000;
+  color: #20a192;
   transition: all 0.3s;
   position: relative;
 }
@@ -111,16 +124,19 @@ nav ul li a:hover {
   border-bottom-width: 1px;
   border-top-style: solid;
   border-bottom-style: solid;
-  border-top-color: rgba(0, 0, 0, 0.5);
-  border-bottom-color: rgba(0, 0, 0, 0.5);
+  border-top-color: #71604b;
+  border-bottom-color: #71604b;
   transform: scale(2, 1);
 }
 .hireme:hover span {
   letter-spacing: 2px;
 }
+.hireme:hover{
+  color: #71604b;
+}
 .hireme:hover::before {
   opacity: 1; 
-  transform: scale(1, 1); 
+  transform: scale(1, 1);
 }
 .hireme::after {
   content: '';
@@ -132,7 +148,7 @@ nav ul li a:hover {
   z-index: 1;
   transition: all 0.3s;
 }
-.bhireme:hover::after {
+.hireme:hover::after {
   opacity: 0; 
   transform: scale(0.1, 1);
 }
@@ -144,6 +160,7 @@ nav ul li a:hover {
   font-optical-sizing: auto;
   font-size: 100px;
   font-weight: 900;
+  color: #71604b;
   font-style: normal;
 }
 .hero-img{
@@ -153,9 +170,21 @@ nav ul li a:hover {
 }
 .mydesc{
   font-size: 25px;
+  color: #71604b;
+
 }
+.summary{
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #71604b;
 
-
+}
+#summary-span{
+  color: #20a192;
+  font-weight: 600;
+}
 
 /* about section */
 #about-img{
@@ -165,6 +194,26 @@ nav ul li a:hover {
 #about-img img{
   width: 100%;
   max-height: 450px;
+}
+.typed-text {
+  font-weight: bold;
+  color: #20a192; /* Your preferred color */
+}
+
+.cursor {
+  display: inline-block;
+  background-color: #20a192; /* Your preferred color */
+  width: 2px;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+      opacity: 1;
+  }
+  50%, 100% {
+      opacity: 0;
+  }
 }
 
 
