@@ -1,0 +1,153 @@
+/* fonts */
+/* nav font */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* body headings */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=League+Spartan:wght@100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+  background-color: #EDF4F2;
+}
+
+
+
+
+
+.navbar{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* hero section */
+.heading{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 100px;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+/* about section */
+#about-img{
+  height: auto;
+  /* max-height: 500px; */
+}
+#about-img img{
+  width: 100%;
+  max-height: 450px;
+}
+
+
+
+
+
+
+
+/* skills section */
+.icons{
+  font-size: 50px;
+}
+@media (max-width: 700px) {
+  .icons{
+    font-size: 40px;
+}
+}
+
+
+
+
+
+
+
+
+/* project section */
+.project-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-img img {
+  width: 100%;
+  height: auto; /* Image height set to auto to maintain aspect ratio */
+  max-height: 400px; /* Maximum height for image */
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-img:hover img {
+  transform: scale(1.1);
+}
+
+.project-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.project-img:hover .project-overlay {
+  opacity: 1;
+  z-index: 1; /* Ensure overlay stays on top */
+}
+
+.project-details {
+  text-align: center;
+  position: relative; /* Ensure text stays on top of overlay */
+  z-index: 2;
+}
+
+.project-details h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-details p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.head h1{
+    font-size: 100px;
+    color: rgb(187, 185, 185);
+}
+.heading{
+    position: relative;
+}
+#proj-head{
+    font-size: 150px;
+    color: gray;
+}
+#proj-child{
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
