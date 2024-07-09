@@ -166,7 +166,6 @@ nav ul li:hover::after {
 }
 .hero-img{
   height: 400px;
-  width: auto;
   border-radius: 100px;
 }
 .mydesc{
