@@ -234,10 +234,12 @@ nav ul li:hover::after {
   color: #1b9f98;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
+  font-size: 19px;
 }
 .chat{
   background-color: #1b9f98;
   transition: .3s ease-out;
+  font-size: 19px;
 }
 .chat:hover{
   background-color: #aa8b63;
@@ -327,6 +329,29 @@ div [class^="col-"]{
 
 
 
+
+
+/* education and experience */
+.card {
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #18d4ca;
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  margin-bottom: 20px;
+}
+.card-text {
+  flex-grow: 1;
+}
+@media (max-width: 991px) {
+  #exp-card {
+    margin-top: 20px;
+  }
+}
 
 
 
