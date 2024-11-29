@@ -1,0 +1,33 @@
+.skills-badges{
+    background-color: #2a2a2a;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    border: 2px solid #484848;
+    border-radius: 100px;
+}
+h5{
+    font-size: .95rem !important;
+}
+.company-link{
+    text-decoration: none;
+    color: #d3e97a;
+}
+.toggle-container {
+    overflow: hidden;
+    transition: all 2s ease; /* Smooth transition for height and opacity */
+  }
+  
+   .toggle-container.hidden {
+    opacity: 0;
+    height: 0; 
+  }
+  
+  .toggle-container.visible {
+    opacity: 1;
+    height: auto; 
+  }
+  .down-arrow{
+  animation: bounce 01s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  }

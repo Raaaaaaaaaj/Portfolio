@@ -1,0 +1,31 @@
+<div class="container card-cont">
+    <div class="row my-5">
+        <div class="col-12 col-lg-6 p-5 projectOuter">
+            <img [src]="img.src" [alt]="img.alt" class="img-fluid project-images">
+        </div>
+        <div class="col-12 col-lg-6 px-4 mt-4">
+            <h1 class="subheadings">{{ projectTitle }}</h1>
+            <p class="para">{{ projectDescription }} <span style="color: #d3e97a;">Read more</span> </p>
+            
+            <br>
+            <h1 class="subheadings">Project Info</h1>
+            <hr>
+            <div class="d-flex align-items-center justify-content-between">
+                <span class="subheadings">Year
+                </span>
+                <span class="para">2024</span>
+            </div>
+            <hr>
+            <div class="d-flex align-items-center justify-content-between">
+                <span class="subheadings">Role
+                </span>
+                <span class="para">{{ projectRole }}</span>
+            </div>
+            <hr>
+            <a [href]="link" target="_blank">
+                <u class="underline">Live Link<i class="fa-solid fa-paperclip m-2" style="color: #d3e97a;"></i></u>
+            </a>
+        </div>
+    </div>
+</div>
+  

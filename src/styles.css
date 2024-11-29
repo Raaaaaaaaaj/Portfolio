@@ -1,0 +1,69 @@
+/* Webpixels CSS */
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap');
+body{
+    background-color: #0a0a0a;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+.headings{
+    color: #ffffff;
+    font-size: 4.25rem !important;
+    font-family: "Bebas Neue", sans-serif;
+}
+.subheadings{
+    color: #ffffff;
+    font-size: 1.25rem !important;
+    font-family: "Manrope", sans-serif;
+}
+.para{
+    color: #c7c7c7;
+    font-family: "Manrope", sans-serif;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+.primary-btn{
+    width: 150px !important;
+    background-color: #d3e97a;
+    border-radius: 100px;
+    color: #0a0a0a;
+    font-family: "Manrope", sans-serif;
+    transition: .3s all;
+}
+.primary-btn:hover{
+    background-color: #222222;
+    border: 1px solid #d3e97a;
+    color: white !important;
+}
+hr{
+    background-color: #606060;
+    height: 3px !important;
+}
+span{
+    font-family: "Manrope", sans-serif;
+}
+.underline{
+    color: #d3e97a;
+}
+.icon-cont{
+    background-color: #222222;
+    margin-left: 20px;
+    padding: 10px 16px;
+    border-radius: 50%;
+}
+.footerheadings{
+    color: #ffffff;
+    font-size: 3.85rem !important;
+    font-family: "Bebas Neue", sans-serif;
+    word-break: break-all;
+}
+@media(max-width: 768px){
+    .footerheadings{
+        font-size: 2.25rem !important;
+        word-break: break-all;
+    }
+}

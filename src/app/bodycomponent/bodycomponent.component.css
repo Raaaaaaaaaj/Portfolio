@@ -1,0 +1,25 @@
+.img-cont{
+    justify-content: flex-end;
+}
+.hero_img{
+    border-radius: 20px;
+    max-height: 480px;
+}
+
+.fa-circle-down:hover{
+    color: aliceblue !important;
+}
+/* .icon-cont{
+    background-color: #222222;
+    margin-left: 20px;
+    padding: 10px 16px;
+    border-radius: 50%;
+} */
+/* .bnt-links{
+    text-decoration: none;
+    color: #0a0a0a;
+    font-family: "Manrope", sans-serif;
+}
+.bnt-links:hover{
+    color: #fff !important;
+} */

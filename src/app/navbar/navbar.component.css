@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #0a0a0a !important;
+    font-family: "Manrope", sans-serif;
+}
+.navbar-nav>a.nav-item{
+    color: white;
+}
+.nav-brand{
+    text-decoration: none;
+    color: #d3e97a;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem !important;
+}
