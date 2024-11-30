@@ -16,4 +16,7 @@ export class CommonprojectcardComponent {
   @Input({required: true}) projectDescription! : string;
   @Input({required: true}) projectRole! : string;
   @Input({required: true}) link! : string;
+  @Input({required: true}) modalprojectTitle! : string; 
+  @Input({required: true}) modalprojDetails! : string;
+  @Input({required: true}) projNum! : string;
 }

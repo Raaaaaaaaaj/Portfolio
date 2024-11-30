@@ -9,17 +9,20 @@
 .fa-circle-down:hover{
     color: aliceblue !important;
 }
-/* .icon-cont{
-    background-color: #222222;
-    margin-left: 20px;
-    padding: 10px 16px;
-    border-radius: 50%;
-} */
-/* .bnt-links{
-    text-decoration: none;
-    color: #0a0a0a;
-    font-family: "Manrope", sans-serif;
-}
-.bnt-links:hover{
-    color: #fff !important;
-} */
+/* .typing-effect {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    display: inline-block;
+    border-right: 2px solid black;
+    animation: blink-cursor 0.7s steps(40) infinite;
+  }
+  
+  @keyframes blink-cursor {
+    0% { border-color: black; }
+    50% { border-color: transparent; }
+    100% { border-color: black; }
+  }
+   */

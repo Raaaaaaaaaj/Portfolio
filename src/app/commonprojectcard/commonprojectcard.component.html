@@ -1,12 +1,12 @@
 <div class="container card-cont">
     <div class="row my-5">
-        <div class="col-12 col-lg-6 p-5 projectOuter">
+        <div class="col-12 col-lg-6 p-5 projectOuter d-flex align-items-center">
             <img [src]="img.src" [alt]="img.alt" class="img-fluid project-images">
         </div>
         <div class="col-12 col-lg-6 px-4 mt-4">
+            <span class="d-none">{{ projNum }}</span>
             <h1 class="subheadings">{{ projectTitle }}</h1>
-            <p class="para">{{ projectDescription }} <span style="color: #d3e97a;">Read more</span> </p>
-            
+            <p class="para">{{ projectDescription }} <span style="color: #d3e97a; cursor: pointer;" data-bs-toggle="modal" [attr.data-bs-target]="'#exampleModal' + projNum">Read more</span></p>
             <br>
             <h1 class="subheadings">Project Info</h1>
             <hr>
@@ -29,3 +29,22 @@
     </div>
 </div>
   
+  <!-- Modal -->
+  <div class="modal fade" [id]="'exampleModal'+projNum" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">{{ modalprojectTitle }}</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="para" [innerHTML]="modalprojDetails">
+            
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button data-bs-dismiss="modal">I see</button>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-bodycomponent',
@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './bodycomponent.component.html',
   styleUrl: './bodycomponent.component.css'
 })
-export class BodycomponentComponent {
+export class BodycomponentComponent{
 
-}
+} 

@@ -5,3 +5,8 @@
     background-color: #1a1a1a !important;
     border-radius: 20px;
 }
+.modal-footer>button{
+    background: transparent; 
+    font-family: "Bebas Neue", sans-serif;
+    color: #d3e97a;
+}

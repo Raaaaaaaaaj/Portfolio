@@ -67,3 +67,11 @@ span{
         word-break: break-all;
     }
 }
+.modal-content{
+    background-color: #0a0a0a;
+    border: 1px solid #d3e97a;
+}
+.modal-header .modal-title{
+    color: #d3e97a;
+    font-family: "Bebas Neue", sans-serif !important;
+}

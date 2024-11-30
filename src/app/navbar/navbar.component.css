@@ -4,6 +4,7 @@
 }
 .navbar-nav>a.nav-item{
     color: white;
+    font-size: 1rem !important;
 }
 .nav-brand{
     text-decoration: none;
