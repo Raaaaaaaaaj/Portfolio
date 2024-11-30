@@ -9,6 +9,12 @@
 .fa-circle-down:hover{
     color: aliceblue !important;
 }
+.typing-heading{
+    color: #ffffff;
+    font-size: 4.25rem !important;
+    font-family: "Bebas Neue", sans-serif;
+}
+
 /* .typing-effect {
     font-family: Arial, sans-serif;
     font-size: 18px;
