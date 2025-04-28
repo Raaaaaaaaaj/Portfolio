@@ -31,3 +31,6 @@ h5{
   animation-direction: alternate;
   animation-iteration-count: infinite;
   }
+ul>li{
+  color: white;
+}
